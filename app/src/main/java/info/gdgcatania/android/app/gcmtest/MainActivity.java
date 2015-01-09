@@ -9,7 +9,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import edu.gabrielebaldoni.gdgcataniagcmtest.R;
+import info.gdgcatania.android.app.gcmtest.R;
 
 
 public class MainActivity extends Activity {

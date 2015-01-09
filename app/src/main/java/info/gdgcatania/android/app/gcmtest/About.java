@@ -14,7 +14,7 @@ import android.graphics.RectF;
 import android.os.Bundle;
 import android.widget.ImageView;
 
-import edu.gabrielebaldoni.gdgcataniagcmtest.R;
+import info.gdgcatania.android.app.gcmtest.R;
 
 public class About extends Activity {
 	

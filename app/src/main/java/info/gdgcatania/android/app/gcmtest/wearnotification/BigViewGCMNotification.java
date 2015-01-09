@@ -10,7 +10,7 @@ import android.graphics.Color;
 import android.os.Build;
 import android.support.v4.app.NotificationCompat;
 
-import edu.gabrielebaldoni.gdgcataniagcmtest.R;
+import info.gdgcatania.android.app.gcmtest.R;
 
 
 public class BigViewGCMNotification {

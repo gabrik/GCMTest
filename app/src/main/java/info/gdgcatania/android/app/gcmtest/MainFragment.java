@@ -22,7 +22,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import edu.gabrielebaldoni.gdgcataniagcmtest.R;
+import info.gdgcatania.android.app.gcmtest.R;
 import info.gdgcatania.android.app.gcmtest.services.RegistrationService;
 
 

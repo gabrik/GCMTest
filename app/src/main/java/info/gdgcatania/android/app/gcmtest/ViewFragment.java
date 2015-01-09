@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import edu.gabrielebaldoni.gdgcataniagcmtest.R;
+import info.gdgcatania.android.app.gcmtest.R;
 
 
 public class ViewFragment extends Fragment {
