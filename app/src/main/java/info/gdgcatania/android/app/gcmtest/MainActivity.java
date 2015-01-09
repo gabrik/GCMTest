@@ -9,6 +9,8 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import edu.gabrielebaldoni.gdgcataniagcmtest.R;
+
 
 public class MainActivity extends Activity {
 

@@ -12,6 +12,8 @@ import android.os.Build;
 import android.preview.support.wearable.notifications.WearableNotifications;
 import android.support.v4.app.NotificationCompat;
 import android.util.Log;
+
+import edu.gabrielebaldoni.gdgcataniagcmtest.R;
 import info.gdgcatania.android.app.gcmtest.Constants;
 import info.gdgcatania.android.app.gcmtest.MainActivity;
 

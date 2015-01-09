@@ -14,6 +14,8 @@ import android.graphics.RectF;
 import android.os.Bundle;
 import android.widget.ImageView;
 
+import edu.gabrielebaldoni.gdgcataniagcmtest.R;
+
 public class About extends Activity {
 	
 	private ImageView imViewAndroid;

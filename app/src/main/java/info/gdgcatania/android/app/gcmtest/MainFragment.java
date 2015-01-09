@@ -21,6 +21,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import edu.gabrielebaldoni.gdgcataniagcmtest.R;
 import info.gdgcatania.android.app.gcmtest.services.RegistrationService;
 
 
@@ -28,8 +30,8 @@ public class MainFragment extends Fragment {
 
 	
 	private static final String TAG = "GDG GCM Test MainFragment";
-	
-	private ServiceReceiver receiver;
+
+    private ServiceReceiver receiver;
 	private String username;
 	private String password;
 	
