@@ -1,0 +1,109 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.andrea.weartest.About"
+    tools:ignore="MergeRootFrame" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="1" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="201dp"
+            android:layout_height="66dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/gdg_catania" />
+
+        <TextView
+            android:id="@+id/textCopyright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/about_copyright" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/imageView1" >
+
+            <TextView
+                android:id="@+id/textName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/textMail"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="46dp"
+                android:text="@string/about_name_andrea"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textMail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/avatar"
+                android:layout_centerHorizontal="true"
+                android:text="@string/about_email_andrea"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <ImageView
+                android:id="@+id/avatar"
+                android:layout_width="92dp"
+                android:layout_height="122dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:layout_toLeftOf="@+id/textName"
+                android:src="@drawable/avatar" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/relativeLayout2" >
+
+            <TextView
+                android:id="@+id/about_name_gabriele"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="30dp"
+                android:layout_toRightOf="@+id/avatar_gabriele"
+                android:text="@string/about_name_gabriele"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <ImageView
+                android:id="@+id/avatar_gabriele"
+                android:layout_width="92dp"
+                android:layout_height="122dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/avatar2" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/about_mail_gabriele"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relativeLayout3"
+            android:layout_centerHorizontal="true"
+            android:text="@string/about_email_gabriele"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </RelativeLayout>
+
+</FrameLayout>

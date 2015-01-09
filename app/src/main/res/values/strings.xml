@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">"GCM Test "</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_about">About</string>
+    <string name="str_username">Username</string>
+    <string name="str_send">Registrami per il GCM</string>
+    <string name="str_pass">Password</string>
+    <string name="gcm_notification_title_template">GCM: %1$s</string>
+    <string name="gcm_notification_placeholder_text_template">Messaggio: %1$s </string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="str_message">Hai ricevuto questo messaggio dal GCM</string>
+    <string name="str_alreadyreg">Sei già registrato!\nCollegati su\nhttp://gabrielebaldoni.altervista.org/gcmgdgtest/</string>
+    <string name="action_button_reply">Reply</string>
+    <string name="action_button_refresh">Refresh</string>
+    <string name="text_bigView">You said %1$s and lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non enim magna. Morbi dictum, velit vel semper venenatis, magna odio volutpat velit, at ullamcorper nulla lacus sed turpis. Pellentesque vitae metus elit, nec tincidunt tellus. Integer sed nisl sem, ullamcorper ornare lacus. Duis ac mauris sed massa congue volutpat. Donec sed erat sit amet turpis viverra rhoncus sit amet nec magna. Donec lacinia ligula at libero volutpat volutpat nec nec tortor.</string>
+    <string-array name="reply_choices">
+        <item >Yes</item>
+        <item >No</item>
+        <item >Maybe</item>
+    </string-array>
+    <string name="reply_label">Reply</string>
+    <string name="about_name_andrea">Andrea Battaglia</string>
+    <string name="about_email_andrea">battaglia.andry@gmail.com</string>
+    <string name="about_name_gabriele">Gabriele Baldoni</string>
+    <string name="about_email_gabriele">gabriele.baldoni@gmail.com</string>
+    <string name="about_copyright">Copyright (c) 2014 Gabriele Baldoni Andrea Battaglia</string>
+	<string name="title_activity_about">About</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="action_bar_color">#264B87</color>
+    <color name="linkable_text_color">#00B7FF</color>
+    <color name="backgroud_activity">#DFDFDF</color>
+    <color name="backgroud_tile">#FFFFFF</color>
+    <color name="allert">#FF0000</color>
+</resources>
