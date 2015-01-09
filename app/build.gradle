@@ -5,7 +5,7 @@ android {
     buildToolsVersion "21.1.1"
 
     defaultConfig {
-        applicationId "edu.gabrielebaldoni.gdgcataniagcmtest"
+        applicationId "info.gdgcatania.android.app.gcmtest"
         minSdkVersion 18
         targetSdkVersion 19
     }
